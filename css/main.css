@@ -45,6 +45,7 @@ body {
 }
 .wraps > div:nth-child(odd) {
   justify-content: flex-end;
+  text-align: right;
 }
 
 .description {
