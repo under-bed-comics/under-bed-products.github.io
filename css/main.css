@@ -64,6 +64,12 @@ a {
   border-bottom: 2px solid black;
   margin-bottom: 1em;
 }
+
+h2.sold {
+  color: red;
+  text-transform: uppercase;
+}
+
 .description p {
   margin: 0.5rem;
 }
