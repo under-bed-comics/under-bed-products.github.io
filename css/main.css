@@ -21,11 +21,16 @@ html,
 body {
   font-size: 20px;
   background-color: #bfb2c5;
+  color: rgb(0, 0, 0);
   font-family: sans-serif;
 }
 
 .contact {
   margin-right: 10px;
+}
+a {
+  color: black;
+  text-underline-offset: 1px;
 }
 
 .wraps {
@@ -57,11 +62,23 @@ body {
   text-align: center;
 
   border-bottom: 2px solid black;
-  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.description p {
+  margin: 0.5rem;
 }
 
 header h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+
+.wraps img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  font-size: 0.8rem;
 }
